@@ -12,8 +12,17 @@ for(i = 0; i < 16; i++) {
   }
 }
 
+//color picker
+const colorInput = document.querySelector('#color');
+let color = "black";
+colorInput.addEventListener('input', changeColor);
+
+function changeColor() {
+  color = this.value;
+}
+
 function doThis(event) {
 	if(event.buttons == 1) {
-		this.classList.add("style");
+		this.style.backgroundColor = color;
 	}
 }
