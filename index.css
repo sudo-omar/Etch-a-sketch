@@ -1,0 +1,21 @@
+.column {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.row, .column {
+  user-select: none;
+}
+
+#container {
+  display: flex;
+}
+
+.column:hover {
+  background-color: black;
+}
+
+.style {
+  background-color: black;
+}
