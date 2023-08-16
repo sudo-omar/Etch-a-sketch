@@ -27,6 +27,7 @@ clearButton.addEventListener('click', clear);
 function clear() {
   allBoxes = document.querySelectorAll(".column");
   allBoxes.forEach(column => column.style.backgroundColor = "white");
+  color = colorInput.value;
 }
 function colorToWhite() {
   color = "white";
