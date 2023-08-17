@@ -33,7 +33,7 @@ const rangeValue = document.querySelector('#rangeValue');
 
 function dimensionChange() {
   //sets range text to value of input element
-  rangeValue.textContent = this.value;
+  rangeValue.textContent = this.value + " x " + this.value;
   //deletes prior board
   while(container.firstChild) {
     container.removeChild(container.firstChild);

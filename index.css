@@ -1,6 +1,6 @@
 .column {
-  width: 20px;
-  height: 20px;
+  width: 31px;
+  height: 31px;
   border: 1px solid black;
   background-color: white;
 }
@@ -35,9 +35,13 @@ h4 {
 }
 
 #center {
-    text-align: left;
+    text-align: center;
 }
 
+#left {
+    place-content: left;
+    width: 500px;
+}
 
 
 
