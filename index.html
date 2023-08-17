@@ -1,3 +1,4 @@
+<!--TODO: add a color randomizer, slowly increase opacity-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,17 @@
 </head>
 <body>
     <h1>Etch-a-Sketch</h1>
-    <div id="container"></div>
+    <div id="dimensions">
+        <h4>Dimensions:</h4>
+        <div id="center">
+            <h4 id="rangeValue">16</h4>
+            <input type="range" id="rangeInput" min="1" max="20">
+        </div>
+        
+        <div id="container"></div>
+    </div>
+    
+    
     <h4>Color:</h4>
     <input type="color" id="color">
     <button id="eraser">Eraser</button>

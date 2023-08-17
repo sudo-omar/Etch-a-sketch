@@ -28,6 +28,14 @@ h4 {
 #clearAll {
     background-color: black;
     color: white;
-    
 }
+
+#dimensions {
+    align-content: left;
+}
+
+#center {
+    text-align: left;
+}
+
 
